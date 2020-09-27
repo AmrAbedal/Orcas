@@ -22,6 +22,9 @@
 		A055FA572520AAB700451AA9 /* OnlineTutoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA562520AAB700451AA9 /* OnlineTutoring.swift */; };
 		A055FA5C2520B44100451AA9 /* ExporeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA5B2520B44100451AA9 /* ExporeScreen.swift */; };
 		A055FA692520D3B500451AA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A055FA6B2520D3B500451AA9 /* Localizable.strings */; };
+		A055FA742520D96000451AA9 /* SubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA732520D96000451AA9 /* SubjectsView.swift */; };
+		A055FA792520E04A00451AA9 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA782520E04A00451AA9 /* SubjectCell.swift */; };
+		A055FA7E2520E0C400451AA9 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA7D2520E0C400451AA9 /* Subject.swift */; };
 		A0D9D78D250D10CA00E97FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */; };
 		A0D9D78F250D10CA00E97FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */; };
 		A0D9D791250D10CA00E97FF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D790250D10CA00E97FF0 /* ContentView.swift */; };
@@ -67,6 +70,9 @@
 		A055FA602520D38600451AA9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A055FA6A2520D3B500451AA9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A055FA6F2520D3BA00451AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A055FA732520D96000451AA9 /* SubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsView.swift; sourceTree = "<group>"; };
+		A055FA782520E04A00451AA9 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
+		A055FA7D2520E0C400451AA9 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		A0D9D789250D10CA00E97FF0 /* LetsTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +157,9 @@
 				A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */,
 				A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */,
 				A0D9D790250D10CA00E97FF0 /* ContentView.swift */,
+				A055FA732520D96000451AA9 /* SubjectsView.swift */,
+				A055FA7D2520E0C400451AA9 /* Subject.swift */,
+				A055FA782520E04A00451AA9 /* SubjectCell.swift */,
 				A055FA5B2520B44100451AA9 /* ExporeScreen.swift */,
 				A055FA4C2520AA6D00451AA9 /* WebinarView.swift */,
 				A055FA562520AAB700451AA9 /* OnlineTutoring.swift */,
@@ -336,7 +345,10 @@
 				A055FA572520AAB700451AA9 /* OnlineTutoring.swift in Sources */,
 				A0D9D78D250D10CA00E97FF0 /* AppDelegate.swift in Sources */,
 				A0D9D78F250D10CA00E97FF0 /* SceneDelegate.swift in Sources */,
+				A055FA792520E04A00451AA9 /* SubjectCell.swift in Sources */,
+				A055FA742520D96000451AA9 /* SubjectsView.swift in Sources */,
 				A0D9D791250D10CA00E97FF0 /* ContentView.swift in Sources */,
+				A055FA7E2520E0C400451AA9 /* Subject.swift in Sources */,
 				A055FA522520AA9500451AA9 /* TutorsView.swift in Sources */,
 				A055FA4D2520AA6D00451AA9 /* WebinarView.swift in Sources */,
 				A055FA5C2520B44100451AA9 /* ExporeScreen.swift in Sources */,

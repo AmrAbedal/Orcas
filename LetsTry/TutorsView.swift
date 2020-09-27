@@ -14,7 +14,7 @@ struct TutorsView: View {
         self.action = action
     }
     var body: some View {
-        Button(action: action ) {
+        NavigationLink(destination: SubjectsView()) {
             Image("ic_home_discover")
             Text("Tutors".localized).foregroundColor(Color.init("ServiceColor")).font(.custom("SFUIDisplay-Bold", size: 21))
             Image("ic_home_arrow")
