@@ -20,6 +20,7 @@
 		A055FA4D2520AA6D00451AA9 /* WebinarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA4C2520AA6D00451AA9 /* WebinarView.swift */; };
 		A055FA522520AA9500451AA9 /* TutorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA512520AA9500451AA9 /* TutorsView.swift */; };
 		A055FA572520AAB700451AA9 /* OnlineTutoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA562520AAB700451AA9 /* OnlineTutoring.swift */; };
+		A055FA5C2520B44100451AA9 /* ExporeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA5B2520B44100451AA9 /* ExporeScreen.swift */; };
 		A0D9D78D250D10CA00E97FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */; };
 		A0D9D78F250D10CA00E97FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */; };
 		A0D9D791250D10CA00E97FF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D790250D10CA00E97FF0 /* ContentView.swift */; };
@@ -61,6 +62,7 @@
 		A055FA4C2520AA6D00451AA9 /* WebinarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarView.swift; sourceTree = "<group>"; };
 		A055FA512520AA9500451AA9 /* TutorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorsView.swift; sourceTree = "<group>"; };
 		A055FA562520AAB700451AA9 /* OnlineTutoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineTutoring.swift; sourceTree = "<group>"; };
+		A055FA5B2520B44100451AA9 /* ExporeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExporeScreen.swift; sourceTree = "<group>"; };
 		A0D9D789250D10CA00E97FF0 /* LetsTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */,
 				A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */,
 				A0D9D790250D10CA00E97FF0 /* ContentView.swift */,
+				A055FA5B2520B44100451AA9 /* ExporeScreen.swift */,
 				A055FA4C2520AA6D00451AA9 /* WebinarView.swift */,
 				A055FA562520AAB700451AA9 /* OnlineTutoring.swift */,
 				A055FA512520AA9500451AA9 /* TutorsView.swift */,
@@ -329,6 +332,7 @@
 				A0D9D791250D10CA00E97FF0 /* ContentView.swift in Sources */,
 				A055FA522520AA9500451AA9 /* TutorsView.swift in Sources */,
 				A055FA4D2520AA6D00451AA9 /* WebinarView.swift in Sources */,
+				A055FA5C2520B44100451AA9 /* ExporeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
