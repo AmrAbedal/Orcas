@@ -58,5 +58,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SFUIDisplay-Regular.ttf</string>
+		<string>SFUIDisplay-Heavy.ttf</string>
+		<string>SFUIDisplay-Light.ttf</string>
+		<string>SFUIDisplay-Semibold.ttf</string>
+		<string>SFUIDisplay-Ultralight.ttf</string>
+		<string>SFUIDisplay-Bold.ttf</string>
+		<string>SFUIDisplay-Thin.ttf</string>
+		<string>SFUIDisplay-Medium.ttf</string>
+		<string>SFUIDisplay-Black.ttf</string>
+		<string>Brother1816-ExtraBold.ttf</string>
+	</array>
 </dict>
 </plist>

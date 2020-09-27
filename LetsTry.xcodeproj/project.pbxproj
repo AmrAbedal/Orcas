@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A055FA3F2520A60200451AA9 /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA352520A60200451AA9 /* SFUIDisplay-Regular.ttf */; };
+		A055FA402520A60200451AA9 /* SFUIDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA362520A60200451AA9 /* SFUIDisplay-Heavy.ttf */; };
+		A055FA412520A60200451AA9 /* SFUIDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA372520A60200451AA9 /* SFUIDisplay-Light.ttf */; };
+		A055FA422520A60200451AA9 /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA382520A60200451AA9 /* SFUIDisplay-Semibold.ttf */; };
+		A055FA432520A60200451AA9 /* SFUIDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA392520A60200451AA9 /* SFUIDisplay-Ultralight.ttf */; };
+		A055FA442520A60200451AA9 /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3A2520A60200451AA9 /* SFUIDisplay-Bold.ttf */; };
+		A055FA452520A60200451AA9 /* SFUIDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3B2520A60200451AA9 /* SFUIDisplay-Thin.ttf */; };
+		A055FA462520A60200451AA9 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3C2520A60200451AA9 /* SFUIDisplay-Medium.ttf */; };
+		A055FA472520A60200451AA9 /* SFUIDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3D2520A60200451AA9 /* SFUIDisplay-Black.ttf */; };
+		A055FA482520A60200451AA9 /* Brother1816-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3E2520A60200451AA9 /* Brother1816-ExtraBold.ttf */; };
+		A055FA4D2520AA6D00451AA9 /* WebinarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA4C2520AA6D00451AA9 /* WebinarView.swift */; };
+		A055FA522520AA9500451AA9 /* TutorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA512520AA9500451AA9 /* TutorsView.swift */; };
+		A055FA572520AAB700451AA9 /* OnlineTutoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA562520AAB700451AA9 /* OnlineTutoring.swift */; };
 		A0D9D78D250D10CA00E97FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */; };
 		A0D9D78F250D10CA00E97FF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */; };
 		A0D9D791250D10CA00E97FF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D9D790250D10CA00E97FF0 /* ContentView.swift */; };
@@ -35,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A055FA352520A60200451AA9 /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		A055FA362520A60200451AA9 /* SFUIDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		A055FA372520A60200451AA9 /* SFUIDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.ttf"; sourceTree = "<group>"; };
+		A055FA382520A60200451AA9 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		A055FA392520A60200451AA9 /* SFUIDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		A055FA3A2520A60200451AA9 /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		A055FA3B2520A60200451AA9 /* SFUIDisplay-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		A055FA3C2520A60200451AA9 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		A055FA3D2520A60200451AA9 /* SFUIDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Black.ttf"; sourceTree = "<group>"; };
+		A055FA3E2520A60200451AA9 /* Brother1816-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brother1816-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A055FA4C2520AA6D00451AA9 /* WebinarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarView.swift; sourceTree = "<group>"; };
+		A055FA512520AA9500451AA9 /* TutorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorsView.swift; sourceTree = "<group>"; };
+		A055FA562520AAB700451AA9 /* OnlineTutoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineTutoring.swift; sourceTree = "<group>"; };
 		A0D9D789250D10CA00E97FF0 /* LetsTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A055FA342520A60200451AA9 /* SFUI */ = {
+			isa = PBXGroup;
+			children = (
+				A055FA352520A60200451AA9 /* SFUIDisplay-Regular.ttf */,
+				A055FA362520A60200451AA9 /* SFUIDisplay-Heavy.ttf */,
+				A055FA372520A60200451AA9 /* SFUIDisplay-Light.ttf */,
+				A055FA382520A60200451AA9 /* SFUIDisplay-Semibold.ttf */,
+				A055FA392520A60200451AA9 /* SFUIDisplay-Ultralight.ttf */,
+				A055FA3A2520A60200451AA9 /* SFUIDisplay-Bold.ttf */,
+				A055FA3B2520A60200451AA9 /* SFUIDisplay-Thin.ttf */,
+				A055FA3C2520A60200451AA9 /* SFUIDisplay-Medium.ttf */,
+				A055FA3D2520A60200451AA9 /* SFUIDisplay-Black.ttf */,
+				A055FA3E2520A60200451AA9 /* Brother1816-ExtraBold.ttf */,
+			);
+			path = SFUI;
+			sourceTree = "<group>";
+		};
 		A0D9D780250D10CA00E97FF0 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +145,10 @@
 				A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */,
 				A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */,
 				A0D9D790250D10CA00E97FF0 /* ContentView.swift */,
+				A055FA4C2520AA6D00451AA9 /* WebinarView.swift */,
+				A055FA562520AAB700451AA9 /* OnlineTutoring.swift */,
+				A055FA512520AA9500451AA9 /* TutorsView.swift */,
+				A055FA342520A60200451AA9 /* SFUI */,
 				A0D9D792250D10CC00E97FF0 /* Assets.xcassets */,
 				A0D9D797250D10CC00E97FF0 /* LaunchScreen.storyboard */,
 				A0D9D79A250D10CC00E97FF0 /* Info.plist */,
@@ -239,9 +286,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A055FA482520A60200451AA9 /* Brother1816-ExtraBold.ttf in Resources */,
+				A055FA432520A60200451AA9 /* SFUIDisplay-Ultralight.ttf in Resources */,
 				A0D9D799250D10CC00E97FF0 /* LaunchScreen.storyboard in Resources */,
+				A055FA462520A60200451AA9 /* SFUIDisplay-Medium.ttf in Resources */,
+				A055FA442520A60200451AA9 /* SFUIDisplay-Bold.ttf in Resources */,
+				A055FA472520A60200451AA9 /* SFUIDisplay-Black.ttf in Resources */,
+				A055FA422520A60200451AA9 /* SFUIDisplay-Semibold.ttf in Resources */,
+				A055FA412520A60200451AA9 /* SFUIDisplay-Light.ttf in Resources */,
 				A0D9D796250D10CC00E97FF0 /* Preview Assets.xcassets in Resources */,
 				A0D9D793250D10CC00E97FF0 /* Assets.xcassets in Resources */,
+				A055FA3F2520A60200451AA9 /* SFUIDisplay-Regular.ttf in Resources */,
+				A055FA402520A60200451AA9 /* SFUIDisplay-Heavy.ttf in Resources */,
+				A055FA452520A60200451AA9 /* SFUIDisplay-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A055FA572520AAB700451AA9 /* OnlineTutoring.swift in Sources */,
 				A0D9D78D250D10CA00E97FF0 /* AppDelegate.swift in Sources */,
 				A0D9D78F250D10CA00E97FF0 /* SceneDelegate.swift in Sources */,
 				A0D9D791250D10CA00E97FF0 /* ContentView.swift in Sources */,
+				A055FA522520AA9500451AA9 /* TutorsView.swift in Sources */,
+				A055FA4D2520AA6D00451AA9 /* WebinarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
