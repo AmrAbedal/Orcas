@@ -22,9 +22,9 @@ struct ExporeScreen: View {
         ZStack {
             Image("bg").resizable().scaledToFill().ignoresSafeArea()
         VStack(alignment:.leading,spacing:18) {
-            Text("Explore").foregroundColor(.white).font(.custom("SFUIDisplay-Semibold", size: 26))
-            Text("☀️ Good Morning, Nadya").foregroundColor(.white).font(.custom("SFUIDisplay-Medium", size: 15))
-            Text("Who are you\n looking for\n today ?").foregroundColor(.white).font(.custom("SFUIDisplay-Heavy", size: 38))
+            Text("Explore".localized).foregroundColor(.white).font(.custom("SFUIDisplay-Semibold", size: 26))
+            Text("☀️ Good Morning, Nadya".localized).foregroundColor(.white).font(.custom("SFUIDisplay-Medium", size: 15))
+            Text("Who are you".localized).foregroundColor(.white).font(.custom("SFUIDisplay-Heavy", size: 38))
             WebinarView(action: webinarsTapped)
             TutorsView(action: tutorsTapped)
             OnlineTutoring(action: onlineTutoringTapped)

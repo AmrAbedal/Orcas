@@ -16,25 +16,25 @@ struct ContentView: View {
             ExporeScreen()
             }.tabItem {
                 Image("tab_explore")
-                Text("EXPLORE")
+                Text("EXPLORE".localized)
             }
             NavigationView {
             ExporeScreen()
             }.tabItem {
                 Image("tab_explore")
-                Text("EXPLORE")
+                Text("EXPLORE".localized)
             }
             NavigationView {
             ExporeScreen()
             }.tabItem {
                 Image("tab_explore")
-                Text("EXPLORE")
+                Text("EXPLORE".localized)
             }
             NavigationView {
             ExporeScreen()
             }.tabItem {
                 Image("tab_explore")
-                Text("EXPLORE") }
+                Text("EXPLORE".localized) }
         }
     }
 }

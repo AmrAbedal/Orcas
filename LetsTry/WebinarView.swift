@@ -16,7 +16,7 @@ struct WebinarView: View {
     var body: some View {
         Button(action: action ) {
             Image("ic_home_discover")
-            Text("Webinars").foregroundColor(Color.init("ServiceColor")).font(.custom("SFUIDisplay-Bold", size: 21))
+            Text("Webinars".localized).foregroundColor(Color.init("ServiceColor")).font(.custom("SFUIDisplay-Bold", size: 21))
             Image("ic_home_arrow")
         }.padding(10).background(Color.white).cornerRadius(25)
         
