@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183AED442615D5080071E0DE /* ServiceScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AED432615D5080071E0DE /* ServiceScreenData.swift */; };
+		183AED522615D8D60071E0DE /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AED512615D8D60071E0DE /* LocalizationHelper.swift */; };
 		A055FA3F2520A60200451AA9 /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA352520A60200451AA9 /* SFUIDisplay-Regular.ttf */; };
 		A055FA402520A60200451AA9 /* SFUIDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA362520A60200451AA9 /* SFUIDisplay-Heavy.ttf */; };
 		A055FA412520A60200451AA9 /* SFUIDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA372520A60200451AA9 /* SFUIDisplay-Light.ttf */; };
@@ -17,9 +19,7 @@
 		A055FA462520A60200451AA9 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3C2520A60200451AA9 /* SFUIDisplay-Medium.ttf */; };
 		A055FA472520A60200451AA9 /* SFUIDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3D2520A60200451AA9 /* SFUIDisplay-Black.ttf */; };
 		A055FA482520A60200451AA9 /* Brother1816-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A055FA3E2520A60200451AA9 /* Brother1816-ExtraBold.ttf */; };
-		A055FA4D2520AA6D00451AA9 /* WebinarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA4C2520AA6D00451AA9 /* WebinarView.swift */; };
-		A055FA522520AA9500451AA9 /* TutorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA512520AA9500451AA9 /* TutorsView.swift */; };
-		A055FA572520AAB700451AA9 /* OnlineTutoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA562520AAB700451AA9 /* OnlineTutoring.swift */; };
+		A055FA572520AAB700451AA9 /* OrcasServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA562520AAB700451AA9 /* OrcasServiceView.swift */; };
 		A055FA5C2520B44100451AA9 /* ExporeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA5B2520B44100451AA9 /* ExporeScreen.swift */; };
 		A055FA692520D3B500451AA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A055FA6B2520D3B500451AA9 /* Localizable.strings */; };
 		A055FA742520D96000451AA9 /* SubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055FA732520D96000451AA9 /* SubjectsView.swift */; };
@@ -53,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183AED432615D5080071E0DE /* ServiceScreenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceScreenData.swift; sourceTree = "<group>"; };
+		183AED512615D8D60071E0DE /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
 		A055FA352520A60200451AA9 /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		A055FA362520A60200451AA9 /* SFUIDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Heavy.ttf"; sourceTree = "<group>"; };
 		A055FA372520A60200451AA9 /* SFUIDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.ttf"; sourceTree = "<group>"; };
@@ -63,9 +65,7 @@
 		A055FA3C2520A60200451AA9 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; };
 		A055FA3D2520A60200451AA9 /* SFUIDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Black.ttf"; sourceTree = "<group>"; };
 		A055FA3E2520A60200451AA9 /* Brother1816-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brother1816-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A055FA4C2520AA6D00451AA9 /* WebinarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebinarView.swift; sourceTree = "<group>"; };
-		A055FA512520AA9500451AA9 /* TutorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorsView.swift; sourceTree = "<group>"; };
-		A055FA562520AAB700451AA9 /* OnlineTutoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineTutoring.swift; sourceTree = "<group>"; };
+		A055FA562520AAB700451AA9 /* OrcasServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcasServiceView.swift; sourceTree = "<group>"; };
 		A055FA5B2520B44100451AA9 /* ExporeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExporeScreen.swift; sourceTree = "<group>"; };
 		A055FA602520D38600451AA9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A055FA6A2520D3B500451AA9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -155,16 +155,16 @@
 			isa = PBXGroup;
 			children = (
 				A0D9D78C250D10CA00E97FF0 /* AppDelegate.swift */,
+				183AED512615D8D60071E0DE /* LocalizationHelper.swift */,
 				A0D9D78E250D10CA00E97FF0 /* SceneDelegate.swift */,
 				A0D9D790250D10CA00E97FF0 /* ContentView.swift */,
 				A055FA732520D96000451AA9 /* SubjectsView.swift */,
 				A055FA7D2520E0C400451AA9 /* Subject.swift */,
 				A055FA782520E04A00451AA9 /* SubjectCell.swift */,
 				A055FA5B2520B44100451AA9 /* ExporeScreen.swift */,
-				A055FA4C2520AA6D00451AA9 /* WebinarView.swift */,
-				A055FA562520AAB700451AA9 /* OnlineTutoring.swift */,
+				A055FA562520AAB700451AA9 /* OrcasServiceView.swift */,
+				183AED432615D5080071E0DE /* ServiceScreenData.swift */,
 				A055FA6B2520D3B500451AA9 /* Localizable.strings */,
-				A055FA512520AA9500451AA9 /* TutorsView.swift */,
 				A055FA342520A60200451AA9 /* SFUI */,
 				A0D9D792250D10CC00E97FF0 /* Assets.xcassets */,
 				A0D9D797250D10CC00E97FF0 /* LaunchScreen.storyboard */,
@@ -342,15 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A055FA572520AAB700451AA9 /* OnlineTutoring.swift in Sources */,
+				A055FA572520AAB700451AA9 /* OrcasServiceView.swift in Sources */,
 				A0D9D78D250D10CA00E97FF0 /* AppDelegate.swift in Sources */,
 				A0D9D78F250D10CA00E97FF0 /* SceneDelegate.swift in Sources */,
 				A055FA792520E04A00451AA9 /* SubjectCell.swift in Sources */,
+				183AED522615D8D60071E0DE /* LocalizationHelper.swift in Sources */,
 				A055FA742520D96000451AA9 /* SubjectsView.swift in Sources */,
 				A0D9D791250D10CA00E97FF0 /* ContentView.swift in Sources */,
 				A055FA7E2520E0C400451AA9 /* Subject.swift in Sources */,
-				A055FA522520AA9500451AA9 /* TutorsView.swift in Sources */,
-				A055FA4D2520AA6D00451AA9 /* WebinarView.swift in Sources */,
+				183AED442615D5080071E0DE /* ServiceScreenData.swift in Sources */,
 				A055FA5C2520B44100451AA9 /* ExporeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
