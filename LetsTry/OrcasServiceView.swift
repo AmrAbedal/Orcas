@@ -9,14 +9,12 @@ import Foundation
 import SwiftUI
 
 struct OrcasServiceView: View {
-    var action: ()->()
     private let serviceScreenData: ServiceScreenData
-    init(serviceScreenData: ServiceScreenData, action: @escaping ()->() ) {
+    init(serviceScreenData: ServiceScreenData) {
         self.serviceScreenData = serviceScreenData
-        self.action = action
     }
     var body: some View {
-        Button(action: action ) {
+        HStack {
             Image(serviceScreenData.iconName)
             Text(serviceScreenData.text).foregroundColor(Color.init("ServiceColor")).font(.custom("SFUIDisplay-Bold", size: 21))
             Image("ic_home_arrow")
