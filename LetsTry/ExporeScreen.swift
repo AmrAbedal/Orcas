@@ -25,9 +25,9 @@ struct ExporeScreen: View {
                 Text("Explore".localized).foregroundColor(.white).font(.custom("SFUIDisplay-Semibold", size: 26))
                 Text("☀️ Good Morning, Nadya".localized).foregroundColor(.white).font(.custom("SFUIDisplay-Medium", size: 15))
                 Text("Who are you".localized).foregroundColor(.white).font(.custom("SFUIDisplay-Heavy", size: 38))
-                WebinarView(action: webinarsTapped)
-                TutorsView(action: tutorsTapped)
-                OnlineTutoring(action: onlineTutoringTapped)
+                OrcasServiceView(serviceScreenData: ServiceScreenData(iconName: "ic_home_discover", text: "Webinars".localized), action: webinarsTapped)
+                OrcasServiceView(serviceScreenData: ServiceScreenData(iconName: "ic_home_discover", text: "Tutors".localized), action: tutorsTapped)
+                OrcasServiceView(serviceScreenData: ServiceScreenData(iconName: "ic_home_discover", text: "Online Tutoring".localized), action: onlineTutoringTapped)
             }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading).padding(EdgeInsets(top: 68, leading: 16, bottom: 0, trailing: 0))
         }
     }
